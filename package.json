@@ -110,7 +110,7 @@
     "@lydell/node-pty": "1.2.0-beta.3",
     "@mariozechner/pi-agent-core": "0.51.3",
     "@mariozechner/pi-ai": "0.51.3",
-    "@mariozechner/pi-coding-agent": "0.51.3",
+    "@mariozechner/pi-coding-agent": "0.73.1",
     "@mariozechner/pi-tui": "0.51.3",
     "@mozilla/readability": "^0.6.0",
     "@sinclair/typebox": "0.34.48",
@@ -128,23 +128,23 @@
     "express": "^5.2.1",
     "file-type": "^21.3.0",
     "grammy": "^1.39.3",
-    "hono": "4.11.7",
+    "hono": "4.13.5",
     "jiti": "^2.6.1",
     "json5": "^2.2.3",
     "jszip": "^3.10.1",
     "linkedom": "^0.18.12",
     "long": "^5.3.2",
-    "markdown-it": "^14.1.0",
+    "markdown-it": "^15.0.2",
     "node-edge-tts": "^1.2.9",
     "osc-progress": "^0.3.0",
     "pdfjs-dist": "^5.4.624",
     "playwright-core": "1.58.1",
     "proper-lockfile": "^4.1.2",
     "qrcode-terminal": "^0.12.0",
-    "sharp": "^0.34.5",
+    "sharp": "^0.35.4",
     "signal-utils": "^0.21.1",
     "sqlite-vec": "0.1.7-alpha.2",
-    "tar": "7.5.7",
+    "tar": "7.5.21",
     "tslog": "^4.10.2",
     "undici": "^7.20.0",
     "ws": "^8.19.0",
@@ -172,14 +172,14 @@
     "tsdown": "^0.20.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
-    "vitest": "^4.0.18"
+    "vitest": "^5.0.2"
   },
   "peerDependencies": {
     "@napi-rs/canvas": "^0.1.89",
     "node-llama-cpp": "3.15.1"
   },
   "overrides": {
-    "tar": "7.5.7"
+    "tar": "7.5.21"
   },
   "engines": {
     "node": ">=22.12.0"
@@ -194,7 +194,7 @@
       "hono": "4.11.7",
       "qs": "6.14.1",
       "@sinclair/typebox": "0.34.47",
-      "tar": "7.5.7",
+      "tar": "7.5.21",
       "tough-cookie": "4.1.3"
     },
     "onlyBuiltDependencies": [
